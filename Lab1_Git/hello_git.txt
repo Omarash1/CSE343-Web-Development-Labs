@@ -1,0 +1,1 @@
+Hello Git! This file was created for the CSE343 Lab 1 task.
