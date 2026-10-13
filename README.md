@@ -1,7 +1,7 @@
 # CSE343 – Web Development Labs (Fall 2026)
 
 **Student:** Omar Ashraf Roushdy Farghally Ahmed — 24P0205
-Computer and Systems Engineering, Faculty of Engineering, Ain Shams University
+Computer and Artificial Intelligence Engineering (CAIE) – International Credit Hours Engineering Programs (ICHEP), Faculty of Engineering, Ain Shams University
 
 | Folder | Lab | What it contains |
 |---|---|---|
