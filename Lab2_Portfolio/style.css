@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+html {
+    scroll-behavior: smooth;  /* nav links scroll smoothly to each section */
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 10px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.AboutMe {
+    color: Black;
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.AboutMe h2 {
+    text-align: center;
+}
+
+.AboutMe p {
+    font-size: 12px;
+}
+
+.Projects {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.Projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  /* centers the row of cards horizontally */
+    align-items: stretch;     /* makes every card the same height */
+    gap: 20px;                /* equal space between the cards */
+}
+
+.project-card {
+    flex: 1;                  /* every card gets an equal share of the width */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* ---------- Contact section ---------- */
+
+.Contact {
+    width: 40%;
+    margin: 60px auto;
+}
+
+.Contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;   /* stack the inputs on top of each other */
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: black;
+}
+
+.send-button {
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #444;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.footer p {
+    margin: 0;
+}
