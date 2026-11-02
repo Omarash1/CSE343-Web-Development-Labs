@@ -8,9 +8,11 @@ Computer and Artificial Intelligence Engineering (CAIE) – International Credit
 | [`Lab1_Git`](Lab1_Git) | Lab 1 – Git & GitHub | Text file created for the Lab 1 task (`git status` → `git add` → `git commit` → `git push`) |
 | [`Lab2_Portfolio`](Lab2_Portfolio) | Lab 2 – HTML & CSS | Personal portfolio page: header + navigation, About Me, Projects (flexbox cards), Contact form, footer |
 | [`Lab3_JS_Cart`](Lab3_JS_Cart) | Lab 3 – JavaScript | Cart counter using `addEventListener` (add 1/2/3, remove, reset, show quantity) |
+| [`Lab4_JS_Todo`](Lab4_JS_Todo) | Lab 4 – JavaScript & TypeScript | Todo list app: type a task, click **Add Task**, the list is re-rendered from a `string[]` array (written in TypeScript, compiled to `script.js`) |
 
 ## Run it
 No build step — open the `.html` file of any lab in a browser:
 
 - Portfolio: `Lab2_Portfolio/index.html`
 - JS Cart: `Lab3_JS_Cart/index.html` (open the browser console to see the cart log)
+- Todo App: `Lab4_JS_Todo/index.html` (`script.js` is already compiled; to rebuild it from `script.ts` run `npm install` then `npx tsc` inside `Lab4_JS_Todo`)
